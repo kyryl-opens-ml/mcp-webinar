@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+      "mcp-server-motherduck": {
+        "command": "uvx",
+        "args": [
+          "mcp-server-motherduck"
+        ],
+        "env": {
+          "HOME": "/Users/kyryl/Projects/KOML/MCP/mcp-webinar"
+        }
+      }
+    }
+  }

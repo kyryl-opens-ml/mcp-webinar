@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "mcp-server-motherduck": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-motherduck"
+      ],
+      "env": {
+        "HOME": "/Users/kyryl/Projects/KOML/MCP/mcp-webinar"
+      }
+    },
+    "github": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--with",
+        "PyGithub",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "/Users/kyryl/Projects/KOML/MCP/mcp-webinar/server_github.py"
+      ]
+    }
+  }
+}
